@@ -7,6 +7,7 @@ class Table extends Component {
         return (
             <MaterialTable 
                 title="Employee Database"
+                style={{ backgroundColor: "#848484", color: "white" }}
                 columns={[
                     {
                         field: "first",

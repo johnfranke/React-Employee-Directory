@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
 .App {
     text-align: center;
   }
@@ -12,9 +14,18 @@
       animation: App-logo-spin infinite 20s linear;
     }
   }
+
+  b {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  h1 {
+    padding-bottom: 25px;
+  }
   
   .App-header {
-    background-color: #424242;
+    background-color: #1f1f1f;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
